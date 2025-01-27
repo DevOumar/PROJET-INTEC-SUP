@@ -1,0 +1,1297 @@
+INFO - 2024-12-24 09:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 09:40:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(20): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 09:40:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(20): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 09:41:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(20): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:41:26 --> Current URL: http://localhost/library/index.php/dashboard
+DEBUG - 2024-12-24 09:41:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:41:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 09:41:26 --> [DEPRECATED] Optional parameter $userId declared before required parameter $role is implicitly treated as a required parameter in APPPATH\Models\Emprunt.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Emprunt.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Emprunt')
+ 4 APPPATH\Controllers\DashboardController.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Emprunt')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:41:30 --> Current URL: http://localhost/library/index.php/auteurs
+DEBUG - 2024-12-24 09:41:30 --> Last Activity: 1735033286
+DEBUG - 2024-12-24 09:41:30 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:41:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuteursController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\AuteursController.php(16): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AuteursController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:41:32 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:41:32 --> Last Activity: 1735033290
+DEBUG - 2024-12-24 09:41:32 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:41:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:41:57 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:41:57 --> Last Activity: 1735033292
+DEBUG - 2024-12-24 09:41:57 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:41:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:01 --> Current URL: http://localhost/library/index.php/memoires/edit/1
+DEBUG - 2024-12-24 09:42:01 --> Last Activity: 1735033317
+DEBUG - 2024-12-24 09:42:01 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+DEBUG - 2024-12-24 09:42:02 --> Current URL: http://localhost/library/index.php/memoires/edit/public/dist/img/avatar1.png
+INFO - 2024-12-24 09:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:02 --> Last Activity: 1735033321
+DEBUG - 2024-12-24 09:42:02 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\ErrorsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:26 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:42:26 --> Last Activity: 1735033322
+DEBUG - 2024-12-24 09:42:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:32 --> Current URL: http://localhost/library/index.php/memoires/details/1
+DEBUG - 2024-12-24 09:42:32 --> Last Activity: 1735033346
+DEBUG - 2024-12-24 09:42:32 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:43 --> Current URL: http://localhost/library/index.php/memoires/delete/1
+DEBUG - 2024-12-24 09:42:43 --> Last Activity: 1735033352
+DEBUG - 2024-12-24 09:42:43 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:44 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:42:44 --> Last Activity: 1735033363
+DEBUG - 2024-12-24 09:42:44 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:46 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:42:46 --> Last Activity: 1735033364
+DEBUG - 2024-12-24 09:42:46 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:48 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:42:48 --> Last Activity: 1735033366
+DEBUG - 2024-12-24 09:42:48 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:42:51 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 09:42:51 --> Last Activity: 1735033368
+DEBUG - 2024-12-24 09:42:51 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:56:21 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:56:21 --> Last Activity: 1735033371
+DEBUG - 2024-12-24 09:56:21 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:56:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:57:06 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:57:06 --> Last Activity: 1735034181
+DEBUG - 2024-12-24 09:57:06 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:57:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:57:16 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:57:16 --> Last Activity: 1735034226
+DEBUG - 2024-12-24 09:57:16 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:57:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:58:23 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:58:23 --> Last Activity: 1735034236
+DEBUG - 2024-12-24 09:58:23 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:58:25 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 09:58:25 --> Last Activity: 1735034303
+DEBUG - 2024-12-24 09:58:25 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:58:26 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:58:26 --> Last Activity: 1735034305
+DEBUG - 2024-12-24 09:58:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:58:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:58:49 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:58:49 --> Last Activity: 1735034306
+DEBUG - 2024-12-24 09:58:49 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:58:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:58:52 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 09:58:52 --> Last Activity: 1735034329
+DEBUG - 2024-12-24 09:58:52 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:58:52 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:58:52 --> Last Activity: 1735034332
+DEBUG - 2024-12-24 09:58:52 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:58:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:59:00 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:59:00 --> Last Activity: 1735034332
+DEBUG - 2024-12-24 09:59:00 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:59:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:59:03 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:59:03 --> Last Activity: 1735034340
+DEBUG - 2024-12-24 09:59:03 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:59:08 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:59:08 --> Last Activity: 1735034343
+DEBUG - 2024-12-24 09:59:08 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:59:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:59:10 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 09:59:10 --> Last Activity: 1735034348
+DEBUG - 2024-12-24 09:59:10 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:59:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 09:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 09:59:11 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 09:59:11 --> Last Activity: 1735034350
+DEBUG - 2024-12-24 09:59:11 --> Last activity timestamp updated.
+WARNING - 2024-12-24 09:59:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:15 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:01:15 --> Last Activity: 1735034351
+DEBUG - 2024-12-24 10:01:15 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:17 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:01:17 --> Last Activity: 1735034475
+DEBUG - 2024-12-24 10:01:17 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:18 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:01:18 --> Last Activity: 1735034477
+DEBUG - 2024-12-24 10:01:18 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:20 --> Current URL: http://localhost/library/index.php/memoires/create
+DEBUG - 2024-12-24 10:01:20 --> Last Activity: 1735034478
+DEBUG - 2024-12-24 10:01:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+DEBUG - 2024-12-24 10:01:20 --> Current URL: http://localhost/library/index.php/memoires/public/dist/img/avatar1.png
+INFO - 2024-12-24 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:20 --> Last Activity: 1735034480
+DEBUG - 2024-12-24 10:01:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\ErrorsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:54 --> Current URL: http://localhost/library/index.php/memoires/create
+DEBUG - 2024-12-24 10:01:54 --> Last Activity: 1735034480
+DEBUG - 2024-12-24 10:01:54 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:01:55 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:01:55 --> Last Activity: 1735034514
+DEBUG - 2024-12-24 10:01:55 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:01:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:00 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:00 --> Last Activity: 1735034515
+DEBUG - 2024-12-24 10:02:00 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:03 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:02:03 --> Last Activity: 1735034520
+DEBUG - 2024-12-24 10:02:03 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:03 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:03 --> Last Activity: 1735034523
+DEBUG - 2024-12-24 10:02:03 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:12 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:02:12 --> Last Activity: 1735034523
+DEBUG - 2024-12-24 10:02:12 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:13 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:13 --> Last Activity: 1735034532
+DEBUG - 2024-12-24 10:02:13 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:27 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:27 --> Last Activity: 1735034533
+DEBUG - 2024-12-24 10:02:27 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:33 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:33 --> Last Activity: 1735034547
+DEBUG - 2024-12-24 10:02:33 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:44 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:02:44 --> Last Activity: 1735034553
+DEBUG - 2024-12-24 10:02:44 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:45 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:45 --> Last Activity: 1735034564
+DEBUG - 2024-12-24 10:02:45 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:51 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:02:51 --> Last Activity: 1735034565
+DEBUG - 2024-12-24 10:02:51 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:52 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:52 --> Last Activity: 1735034571
+DEBUG - 2024-12-24 10:02:52 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:55 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:02:55 --> Last Activity: 1735034572
+DEBUG - 2024-12-24 10:02:55 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:02:55 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:02:55 --> Last Activity: 1735034575
+DEBUG - 2024-12-24 10:02:55 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:02:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:03:00 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:03:00 --> Last Activity: 1735034575
+DEBUG - 2024-12-24 10:03:00 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:03:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:03:00 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:03:00 --> Last Activity: 1735034580
+DEBUG - 2024-12-24 10:03:00 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:03:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:06:42 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:06:42 --> Last Activity: 1735034580
+DEBUG - 2024-12-24 10:06:42 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:06:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:06:47 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:06:47 --> Last Activity: 1735034802
+DEBUG - 2024-12-24 10:06:47 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:06:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:06:47 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:06:47 --> Last Activity: 1735034807
+DEBUG - 2024-12-24 10:06:47 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:06:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:02 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:02 --> Last Activity: 1735034807
+DEBUG - 2024-12-24 10:07:02 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:03 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:03 --> Last Activity: 1735034822
+DEBUG - 2024-12-24 10:07:03 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:05 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:05 --> Last Activity: 1735034823
+DEBUG - 2024-12-24 10:07:05 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:07 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:07 --> Last Activity: 1735034825
+DEBUG - 2024-12-24 10:07:07 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:13 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:07:13 --> Last Activity: 1735034827
+DEBUG - 2024-12-24 10:07:13 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:14 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:14 --> Last Activity: 1735034833
+DEBUG - 2024-12-24 10:07:14 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:18 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:18 --> Last Activity: 1735034834
+DEBUG - 2024-12-24 10:07:18 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:20 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:20 --> Last Activity: 1735034838
+DEBUG - 2024-12-24 10:07:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:26 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:07:26 --> Last Activity: 1735034840
+DEBUG - 2024-12-24 10:07:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:07:26 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:07:26 --> Last Activity: 1735034846
+DEBUG - 2024-12-24 10:07:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:07:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:09:14 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:09:14 --> Last Activity: 1735034846
+DEBUG - 2024-12-24 10:09:14 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:09:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:09:20 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:09:20 --> Last Activity: 1735034954
+DEBUG - 2024-12-24 10:09:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:09:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:09:20 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:09:20 --> Last Activity: 1735034960
+DEBUG - 2024-12-24 10:09:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:09:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:12:57 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:12:57 --> Last Activity: 1735034960
+DEBUG - 2024-12-24 10:12:57 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:12:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:12:59 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:12:59 --> Last Activity: 1735035177
+DEBUG - 2024-12-24 10:12:59 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:12:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:13:00 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:13:00 --> Last Activity: 1735035179
+DEBUG - 2024-12-24 10:13:00 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:13:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:13:02 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:13:02 --> Last Activity: 1735035180
+DEBUG - 2024-12-24 10:13:02 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:13:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:13:03 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:13:03 --> Last Activity: 1735035182
+DEBUG - 2024-12-24 10:13:03 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:13:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:13:04 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:13:04 --> Last Activity: 1735035183
+DEBUG - 2024-12-24 10:13:04 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:13:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:13:04 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:13:04 --> Last Activity: 1735035184
+DEBUG - 2024-12-24 10:13:04 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:13:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:15:09 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:15:09 --> Last Activity: 1735035184
+DEBUG - 2024-12-24 10:15:09 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:15:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:15:12 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:15:12 --> Last Activity: 1735035309
+DEBUG - 2024-12-24 10:15:12 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:15:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:15:15 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:15:15 --> Last Activity: 1735035312
+DEBUG - 2024-12-24 10:15:15 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:15:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:15:16 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:15:16 --> Last Activity: 1735035315
+DEBUG - 2024-12-24 10:15:16 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:15:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:15:27 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:15:27 --> Last Activity: 1735035316
+DEBUG - 2024-12-24 10:15:27 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:15:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:15:27 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:15:27 --> Last Activity: 1735035327
+DEBUG - 2024-12-24 10:15:27 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:15:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:19:20 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:19:20 --> Last Activity: 1735035327
+DEBUG - 2024-12-24 10:19:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:19:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:19:22 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:19:22 --> Last Activity: 1735035560
+DEBUG - 2024-12-24 10:19:22 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:19:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:19:41 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:19:41 --> Last Activity: 1735035562
+DEBUG - 2024-12-24 10:19:41 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:19:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:19:45 --> Current URL: http://localhost/library/index.php/memoires/delete/2
+DEBUG - 2024-12-24 10:19:45 --> Last Activity: 1735035581
+DEBUG - 2024-12-24 10:19:45 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:19:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:19:45 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:19:45 --> Last Activity: 1735035585
+DEBUG - 2024-12-24 10:19:45 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:19:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:19:49 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:19:49 --> Last Activity: 1735035585
+DEBUG - 2024-12-24 10:19:49 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:19:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:21:40 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:21:40 --> Last Activity: 1735035589
+DEBUG - 2024-12-24 10:21:40 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:21:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:22:24 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:22:24 --> Last Activity: 1735035700
+DEBUG - 2024-12-24 10:22:24 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:22:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:22:26 --> Current URL: http://localhost/library/index.php/memoires/create
+DEBUG - 2024-12-24 10:22:26 --> Last Activity: 1735035744
+DEBUG - 2024-12-24 10:22:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:22:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+DEBUG - 2024-12-24 10:22:26 --> Current URL: http://localhost/library/index.php/memoires/public/dist/img/avatar1.png
+INFO - 2024-12-24 10:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:22:26 --> Last Activity: 1735035746
+DEBUG - 2024-12-24 10:22:26 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:22:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\ErrorsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:22:58 --> Current URL: http://localhost/library/index.php/memoires/create
+DEBUG - 2024-12-24 10:22:58 --> Last Activity: 1735035746
+DEBUG - 2024-12-24 10:22:58 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:22:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:22:59 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:22:59 --> Last Activity: 1735035778
+DEBUG - 2024-12-24 10:22:59 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:22:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:23:03 --> Current URL: http://localhost/library/index.php/memoires/exportFiltered/2020-01-01/2024-12-24
+DEBUG - 2024-12-24 10:23:03 --> Last Activity: 1735035779
+DEBUG - 2024-12-24 10:23:03 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:23:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:23:20 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:23:20 --> Last Activity: 1735035783
+DEBUG - 2024-12-24 10:23:20 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:23:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:23:46 --> Current URL: http://localhost/library/index.php/auteurs
+DEBUG - 2024-12-24 10:23:46 --> Last Activity: 1735035800
+DEBUG - 2024-12-24 10:23:46 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:23:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\AuteursController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\AuteursController.php(16): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\AuteursController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:23:48 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:23:48 --> Last Activity: 1735035826
+DEBUG - 2024-12-24 10:23:48 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:23:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:23:52 --> Current URL: http://localhost/library/index.php/livres
+DEBUG - 2024-12-24 10:23:52 --> Last Activity: 1735035828
+DEBUG - 2024-12-24 10:23:52 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:23:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\LivresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\LivresController.php(17): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LivresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:24:09 --> Current URL: http://localhost/library/index.php/recommandations
+DEBUG - 2024-12-24 10:24:09 --> Last Activity: 1735035832
+DEBUG - 2024-12-24 10:24:09 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:24:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\RecommandationsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\RecommandationsController.php(16): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\RecommandationsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:24:09 --> [DEPRECATED] Optional parameter $userId declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Recommandation.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Recommandation.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recommandation')
+ 4 APPPATH\Controllers\RecommandationsController.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recommandation')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\RecommandationsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:29:01 --> Current URL: http://localhost/library/index.php/recommandations
+DEBUG - 2024-12-24 10:29:01 --> Last Activity: 1735035849
+DEBUG - 2024-12-24 10:29:01 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:29:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\RecommandationsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\RecommandationsController.php(16): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\RecommandationsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:29:01 --> [DEPRECATED] Optional parameter $userId declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Recommandation.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Recommandation.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recommandation')
+ 4 APPPATH\Controllers\RecommandationsController.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recommandation')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\RecommandationsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:29:06 --> Current URL: http://localhost/library/index.php/recommandations
+DEBUG - 2024-12-24 10:29:06 --> Last Activity: 1735036141
+DEBUG - 2024-12-24 10:29:06 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:29:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\RecommandationsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\RecommandationsController.php(16): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\RecommandationsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:29:06 --> [DEPRECATED] Optional parameter $userId declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Recommandation.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Recommandation.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recommandation')
+ 4 APPPATH\Controllers\RecommandationsController.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recommandation')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\RecommandationsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:29:32 --> Current URL: http://localhost/library/index.php/livres
+DEBUG - 2024-12-24 10:29:32 --> Last Activity: 1735036146
+DEBUG - 2024-12-24 10:29:32 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:29:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\LivresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\LivresController.php(17): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LivresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:02 --> Current URL: http://localhost/library/index.php/livres
+DEBUG - 2024-12-24 10:34:02 --> Last Activity: 1735036172
+DEBUG - 2024-12-24 10:34:02 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\LivresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\LivresController.php(17): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LivresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:06 --> Current URL: http://localhost/library/index.php/livres
+DEBUG - 2024-12-24 10:34:06 --> Last Activity: 1735036442
+DEBUG - 2024-12-24 10:34:06 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\LivresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\LivresController.php(17): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\LivresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:14 --> Current URL: http://localhost/library/index.php/user/administrateur
+DEBUG - 2024-12-24 10:34:14 --> Last Activity: 1735036446
+DEBUG - 2024-12-24 10:34:14 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(20): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+DEBUG - 2024-12-24 10:34:15 --> Current URL: http://localhost/library/index.php/user/public/dist/img/avatar1.png
+INFO - 2024-12-24 10:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:15 --> Last Activity: 1735036454
+DEBUG - 2024-12-24 10:34:15 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\ErrorsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:23 --> Current URL: http://localhost/library/index.php/emprunts
+DEBUG - 2024-12-24 10:34:23 --> Last Activity: 1735036455
+DEBUG - 2024-12-24 10:34:23 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\EmpruntsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\EmpruntsController.php(28): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\EmpruntsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:34:23 --> [DEPRECATED] Optional parameter $userId declared before required parameter $role is implicitly treated as a required parameter in APPPATH\Models\Emprunt.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Emprunt.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Emprunt')
+ 4 APPPATH\Controllers\EmpruntsController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Emprunt')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\EmpruntsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:30 --> Current URL: http://localhost/library/index.php/reservations
+DEBUG - 2024-12-24 10:34:30 --> Last Activity: 1735036463
+DEBUG - 2024-12-24 10:34:30 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\ReservationsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\ReservationsController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ReservationsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:34:39 --> Current URL: http://localhost/library/index.php/visites
+DEBUG - 2024-12-24 10:34:39 --> Last Activity: 1735036470
+DEBUG - 2024-12-24 10:34:39 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:34:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\VisitesController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:34:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$MotifvisiteModel is deprecated in APPPATH\Controllers\VisitesController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:37:46 --> Current URL: http://localhost/library/index.php/visites
+DEBUG - 2024-12-24 10:37:46 --> Last Activity: 1735036479
+DEBUG - 2024-12-24 10:37:46 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:37:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\VisitesController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:37:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$MotifvisiteModel is deprecated in APPPATH\Controllers\VisitesController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:38:04 --> Current URL: http://localhost/library/index.php/visites
+DEBUG - 2024-12-24 10:38:04 --> Last Activity: 1735036666
+DEBUG - 2024-12-24 10:38:04 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:38:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\VisitesController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:38:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$MotifvisiteModel is deprecated in APPPATH\Controllers\VisitesController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:38:08 --> Current URL: http://localhost/library/index.php/visites
+DEBUG - 2024-12-24 10:38:08 --> Last Activity: 1735036684
+DEBUG - 2024-12-24 10:38:08 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:38:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\VisitesController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:38:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$MotifvisiteModel is deprecated in APPPATH\Controllers\VisitesController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:38:11 --> Current URL: http://localhost/library/index.php/reservations
+DEBUG - 2024-12-24 10:38:11 --> Last Activity: 1735036688
+DEBUG - 2024-12-24 10:38:11 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:38:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\ReservationsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\ReservationsController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ReservationsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:38:19 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:38:19 --> Last Activity: 1735036691
+DEBUG - 2024-12-24 10:38:19 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:38:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:38:33 --> Current URL: http://localhost/library/index.php/dashboard
+DEBUG - 2024-12-24 10:38:33 --> Last Activity: 1735036699
+DEBUG - 2024-12-24 10:38:33 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:38:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 10:38:33 --> [DEPRECATED] Optional parameter $userId declared before required parameter $role is implicitly treated as a required parameter in APPPATH\Models\Emprunt.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Emprunt.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Emprunt')
+ 4 APPPATH\Controllers\DashboardController.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Emprunt')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 10:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 10:59:34 --> Current URL: http://localhost/library/index.php/memoires
+DEBUG - 2024-12-24 10:59:34 --> Last Activity: 1735036713
+DEBUG - 2024-12-24 10:59:34 --> Last activity timestamp updated.
+WARNING - 2024-12-24 10:59:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\MemoiresController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\MemoiresController.php(23): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\MemoiresController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 11:03:27 --> Current URL: http://localhost/library/index.php/visites
+DEBUG - 2024-12-24 11:03:27 --> Last Activity: 1735037974
+DEBUG - 2024-12-24 11:03:27 --> Last activity timestamp updated.
+WARNING - 2024-12-24 11:03:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\VisitesController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 11:03:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\VisitesController::$MotifvisiteModel is deprecated in APPPATH\Controllers\VisitesController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\VisitesController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 11:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 11:03:29 --> Current URL: http://localhost/library/index.php/dashboard
+DEBUG - 2024-12-24 11:03:29 --> Last Activity: 1735038207
+DEBUG - 2024-12-24 11:03:29 --> Last activity timestamp updated.
+WARNING - 2024-12-24 11:03:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\DashboardController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 11:03:29 --> [DEPRECATED] Optional parameter $userId declared before required parameter $role is implicitly treated as a required parameter in APPPATH\Models\Emprunt.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Emprunt.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Emprunt')
+ 4 APPPATH\Controllers\DashboardController.php(22): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Emprunt')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 11:19:27 --> Current URL: http://localhost/library/index.php/reservations
+DEBUG - 2024-12-24 11:19:27 --> Last Activity: 1735038209
+DEBUG - 2024-12-24 11:19:27 --> Last activity timestamp updated.
+WARNING - 2024-12-24 11:19:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\ReservationsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\ReservationsController.php(21): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\ReservationsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 11:19:30 --> Current URL: http://localhost/library/index.php/emprunts
+DEBUG - 2024-12-24 11:19:30 --> Last Activity: 1735039167
+DEBUG - 2024-12-24 11:19:30 --> Last activity timestamp updated.
+WARNING - 2024-12-24 11:19:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\EmpruntsController::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\EmpruntsController.php(28): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\EmpruntsController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-24 11:19:30 --> [DEPRECATED] Optional parameter $userId declared before required parameter $role is implicitly treated as a required parameter in APPPATH\Models\Emprunt.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\library\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\library\\app\\Models\\Emprunt.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Emprunt')
+ 4 APPPATH\Controllers\EmpruntsController.php(30): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Emprunt')
+ 5 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\EmpruntsController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+DEBUG - 2024-12-24 11:19:34 --> Current URL: http://localhost/library/index.php/auth/logout
+INFO - 2024-12-24 11:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-24 11:19:34 --> Last Activity: 1735039170
+DEBUG - 2024-12-24 11:19:34 --> Last activity timestamp updated.
+WARNING - 2024-12-24 11:19:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(20): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-24 11:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-24 11:19:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$view is deprecated in APPPATH\Controllers\BaseController.php on line 59.
+ 1 APPPATH\Controllers\Auth.php(20): App\Controllers\BaseController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

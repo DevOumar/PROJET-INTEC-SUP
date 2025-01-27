@@ -1,0 +1,9 @@
+CRITICAL - 2024-07-28 14:24:57 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\library\system\Model.php on line 872
+in SYSTEMPATH\Database\BaseBuilder.php on line 984.
+ 1 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->like('prenom', null)
+ 2 APPPATH\Models\Users.php(239): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\EmpruntsController.php(318): App\Models\Users->getUserByName(null)
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\EmpruntsController->infos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmpruntsController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
