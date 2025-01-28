@@ -37,7 +37,11 @@ Historique de toutes les réservations <a href="<?= base_url('reservations/histo
     <h4 class="text-black">Liste(<?= count($reservation_filter_etudiant) ?>)
         <?php if (session()->get('role') === 'ADMINISTRATEUR'): ?>
             <a href="<?= base_url('reservations/exportFiltered/' . $start_date . '/' . $end_date . '/' . $date_filter_chosen_label) ?>"
-                class="btn btn-rounded btn-success btn-sm"><i class="fa fa-file-excel-o"></i> Exporter en excel</a>
+                class="btn btn-rounded btn-success btn-sm <?php if (empty($reservation_filter_etudiant))
+                    echo 'disabled'; ?>">
+                <i class="fa fa-file-excel-o"></i> Exporter en excel
+            </a>
+
         <?php endif; ?>
     </h4>
     <hr />
@@ -81,7 +85,7 @@ Historique de toutes les réservations <a href="<?= base_url('reservations/histo
                         </td>
                         <td>
                             <span class="btn btn-rounded btn-primary btn-sm" style="font-size: smaller;">
-                            <?php
+                                <?php
                                 $role = mb_strtoupper($reservation->role, 'UTF-8');
                                 $civilite = $reservation->civilite;
 

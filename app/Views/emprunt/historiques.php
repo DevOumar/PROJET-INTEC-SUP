@@ -40,10 +40,12 @@ Historique de tous les emprunts <a href="<?= base_url('emprunts/historiques') ?>
         <?php endif; ?>
     </div>
     <h4 class="text-black">Liste(<?= count($emprunt_filter_etudiant) ?>)
-        <?php if (session()->get('role') === 'ADMINISTRATEUR'): ?>
-            <a href="<?= base_url('emprunts/exportFiltered/' . $start_date . '/' . $end_date . '/' . $date_filter_chosen_label) ?>"
-                class="btn btn-rounded btn-success btn-sm"><i class="fa fa-file-excel-o"></i> Exporter en excel</a>
-        <?php endif; ?>
+    <?php if (session()->get('role') === 'ADMINISTRATEUR'): ?>
+    <a href="<?= base_url('emprunts/exportFiltered/' . $start_date . '/' . $end_date . '/' . $date_filter_chosen_label) ?>"
+       class="btn btn-rounded btn-success btn-sm <?= empty($emprunt_filter_etudiant) ? 'disabled' : ''; ?>">
+        <i class="fa fa-file-excel-o"></i> Exporter en excel
+    </a>
+<?php endif; ?>
     </h4>
     <hr />
     <div class="table-responsive">

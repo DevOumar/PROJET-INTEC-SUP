@@ -79,6 +79,16 @@ class ReservationsController extends BaseController
             return redirect()->to(base_url("errors/show403"));
         }
 
+         // Récupérer les réservations filtrées depuis la base de données
+         $reservationModel = new Reservation();
+         $reservations = $reservationModel->getReservationsBetweenDates($start_date, $end_date, $date_filter_chosen_label);
+
+        // Vérifier si la liste est vide
+        if (empty($reservations)) {
+            session()->setFlashdata('error', 'Oups ! Aucune reservation trouvée dans cette plage de dates.');
+            return redirect()->to(base_url("reservations"));
+        }
+
         // Créer un nouveau classeur Excel
         $spreadsheet = new Spreadsheet();
         $sheet = $spreadsheet->getActiveSheet();
@@ -95,9 +105,7 @@ class ReservationsController extends BaseController
         $sheet->setCellValue('I1', "Date de réservation");
         $sheet->setCellValue('J1', 'Date de statut');
 
-        // Récupérer les mémoires filtrées depuis la base de données
-        $reservationModel = new Reservation();
-        $reservations = $reservationModel->getReservationsBetweenDates($start_date, $end_date, $date_filter_chosen_label);
+       
         // Remplir les données dans le classeur Excel
         $row = 2;
         foreach ($reservations as $key => $reservation) {

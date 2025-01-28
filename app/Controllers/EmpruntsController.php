@@ -121,7 +121,7 @@ class EmpruntsController extends BaseController
             $date_filter = "&start_date={$start_date_filter}&end_date={$end_date_filter}";
         }
 
-    $emprunt_filter_etudiant = $this->empruntModel->getEmpruntsBetweenDates($start_date_filter, $end_date_filter, $date_filter_chosen_label);
+        $emprunt_filter_etudiant = $this->empruntModel->getEmpruntsBetweenDates($start_date_filter, $end_date_filter, $date_filter_chosen_label);
 
         return view('emprunt/historiques', [
             'emprunt_filter_etudiant' => $emprunt_filter_etudiant,
@@ -131,57 +131,68 @@ class EmpruntsController extends BaseController
         ]);
     }
 
-    public function exportToExcel($start_date, $end_date,  $date_filter_chosen_label)
-    {
-         // Vérifier le rôle de l'utilisateur
-         if (!$this->session->get('role') || $this->session->get('role') !== "ADMINISTRATEUR") {
-            return redirect()->to("errors/show403");
-        }
-
-        // Créer un nouveau classeur Excel
-        $spreadsheet = new Spreadsheet();
-        $sheet = $spreadsheet->getActiveSheet();
-
-        // Définir les en-têtes de colonnes
-        $sheet->setCellValue('A1', 'ID');
-        $sheet->setCellValue('B1', 'Nom complet');
-        $sheet->setCellValue('C1', "Matricule");
-        $sheet->setCellValue('D1', 'Nom du livre');
-        $sheet->setCellValue('E1', 'Rôle');
-        $sheet->setCellValue('F1', "Date d'emprunt");
-        $sheet->setCellValue('G1', 'Delai de retour');
-        $sheet->setCellValue('H1', 'Date de retour');
-
-        // Récupérer les mémoires filtrées depuis la base de données
-        $empruntModel = new Emprunt();
-        $emprunts = $empruntModel->getEmpruntsBetweenDates($start_date, $end_date, $date_filter_chosen_label);
-
-        // Remplir les données dans le classeur Excel
-        $row = 2;
-        foreach ($emprunts as $key => $emprunt) {
-            $sheet->setCellValue('A' . $row, $key + 1);
-            $sheet->setCellValue('B' . $row, strtoupper($emprunt->nom . ' ' . $emprunt->prenom));
-            $sheet->setCellValue('C' . $row, $emprunt->matricule);
-            $sheet->setCellValue('D' . $row, strtoupper($emprunt->nom_livre));
-            $sheet->setCellValue('E' . $row, $emprunt->role);
-            $sheet->setCellValue('F' . $row, date('d/m/Y \à H:i', strtotime($emprunt->date_emprunt)));
-            $sheet->setCellValue('G' . $row, date('d/m/Y', strtotime($emprunt->delai_retour)));
-            $cellValue = !empty($emprunt->date_retour) ? date('d/m/Y \à H:i', strtotime($emprunt->date_retour)) : 'En attente';
-            $sheet->setCellValue('H' . $row, $cellValue);
-            $row++;
-        }
-
-        // Enregistrer le classeur Excel dans un fichier
-        $writer = new Xlsx($spreadsheet);
-        $filename = 'historiques_emprunts_filtered.xlsx';
-        $writer->save($filename);
-
-        // Télécharger le fichier Excel
-        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-        header('Content-Disposition: attachment;filename="' . $filename . '"');
-        header('Cache-Control: max-age=0');
-        $writer->save('php://output');
+    public function exportToExcel($start_date, $end_date, $date_filter_chosen_label)
+{
+    // Vérifier le rôle de l'utilisateur
+    if (!$this->session->get('role') || $this->session->get('role') !== "ADMINISTRATEUR") {
+        return redirect()->to("errors/show403");
     }
+
+    // Récupérer les emprunts filtrés depuis la base de données
+    $empruntModel = new Emprunt();
+    $emprunts = $empruntModel->getEmpruntsBetweenDates($start_date, $end_date, $date_filter_chosen_label);
+
+    // Vérifier si la liste est vide
+    if (empty($emprunts)) {
+        session()->setFlashdata('error', 'Oups ! Aucun emprunt trouvé dans cette plage de dates.');
+        return redirect()->to(base_url("emprunts"));
+    }
+
+    // Créer un nouveau classeur Excel
+    $spreadsheet = new Spreadsheet();
+    $sheet = $spreadsheet->getActiveSheet();
+
+    // Définir les en-têtes de colonnes
+    $sheet->setCellValue('A1', 'ID');
+    $sheet->setCellValue('B1', 'Nom complet');
+    $sheet->setCellValue('C1', "Matricule");
+    $sheet->setCellValue('D1', 'Nom du livre');
+    $sheet->setCellValue('E1', 'Rôle');
+    $sheet->setCellValue('F1', "Date d'emprunt");
+    $sheet->setCellValue('G1', 'Delai de retour');
+    $sheet->setCellValue('H1', 'Date de retour');
+
+    // Remplir les données dans le classeur Excel
+    $row = 2;
+    foreach ($emprunts as $key => $emprunt) {
+        $sheet->setCellValue('A' . $row, $key + 1);
+        $sheet->setCellValue('B' . $row, strtoupper($emprunt->nom . ' ' . $emprunt->prenom));
+        $sheet->setCellValue('C' . $row, $emprunt->matricule);
+        $sheet->setCellValue('D' . $row, strtoupper($emprunt->nom_livre));
+        $sheet->setCellValue('E' . $row, $emprunt->role);
+        $sheet->setCellValue('F' . $row, date('d/m/Y \à H:i', strtotime($emprunt->date_emprunt)));
+        $sheet->setCellValue('G' . $row, date('d/m/Y', strtotime($emprunt->delai_retour)));
+        $cellValue = !empty($emprunt->date_retour) ? date('d/m/Y \à H:i', strtotime($emprunt->date_retour)) : 'En attente';
+        $sheet->setCellValue('H' . $row, $cellValue);
+        $row++;
+    }
+
+    // Enregistrer le classeur Excel dans un fichier
+    $writer = new Xlsx($spreadsheet);
+    $filename = 'historiques_emprunts_filtered.xlsx';
+    $writer->save($filename);
+
+    // Télécharger le fichier Excel
+    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    header('Content-Disposition: attachment;filename="' . $filename . '"');
+    header('Cache-Control: max-age=0');
+    $writer->save('php://output');
+
+    // Ne pas retourner à la vue après l'exportation
+    exit();
+}
+
+    
     public function create()
     {
         // Vérifier le rôle de l'utilisateur
@@ -265,7 +276,7 @@ class EmpruntsController extends BaseController
         // Si le formulaire n'a pas été soumis ou s'il y a eu une erreur, charger à nouveau la vue avec les livres disponibles
         $livreModel = new Livre();
         $livres = $livreModel->getLivresWithAuthorSortedByName();
-       // $livres = $livreModel->findAll();
+        // $livres = $livreModel->findAll();
         return view('emprunt/create', ['livres' => $livres]);
     }
 
@@ -330,19 +341,19 @@ class EmpruntsController extends BaseController
         if ($this->request->isAJAX()) {
             $livreModel = new Livre();
             $livre = $livreModel->find($id);
-    
+
             if ($livre === null) {
                 return $this->response->setStatusCode(404)->setJSON(['message' => 'Livre non trouvé']);
             }
-    
-           $qteStock = $livreModel->getQteStock($id);
-    
+
+            $qteStock = $livreModel->getQteStock($id);
+
             return $this->response->setJSON(['livre' => $livre, 'qte_stock' => $qteStock]);
         } else {
             return $this->response->setStatusCode(404)->setJSON(['message' => 'Page non trouvée']);
         }
     }
-    
+
 
     public function delete($id)
     {
@@ -580,21 +591,21 @@ class EmpruntsController extends BaseController
         $allowedRoles = ["ADMINISTRATEUR", "ETUDIANT", "PROFESSEUR"];
         $userRole = $this->session->get('role');
         $userId = $this->session->get('user_id');
-    
+
         if (!$userRole || !in_array($userRole, $allowedRoles)) {
             return redirect()->to(base_url("errors/show403"));
         }
-    
+
         // Récupérer l'adresse e-mail
         if ($userRole === 'ADMINISTRATEUR') {
             $email = $this->request->getPost('email');
         } else {
             $email = $this->session->get('email');
         }
-    
+
         // Récupérez les informations de l'utilisateur à partir de son adresse e-mail
         $user = $this->userModel->where('email', $email)->first();
-    
+
         // Vérifiez si l'utilisateur existe
         if (!$user) {
             return $this->response->setJSON(['success' => false, 'message' => 'Adresse e-mail invalide.']);
@@ -604,7 +615,7 @@ class EmpruntsController extends BaseController
         if ($userRole === 'ADMINISTRATEUR') {
             $emprunts = $this->empruntModel
                 ->select('emprunt.*, emprunt.date_emprunt, users.nom, users.prenom, users.civilite, users.matricule, users.role, livre.nom_livre, auteur.libelle AS nom_auteur') // Sélectionnez les colonnes nécessaires, en incluant les informations de l'utilisateur
-                ->join('users', 'users.id = emprunt.user_id') 
+                ->join('users', 'users.id = emprunt.user_id')
                 ->join('livre', 'livre.id = emprunt.id_livre')
                 ->join('auteur', 'auteur.id = livre.id_auteur')
                 ->where('emprunt.retour_status', 1)
