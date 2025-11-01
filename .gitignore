@@ -1,0 +1,39 @@
+# === CodeIgniter 4 ===
+
+# Environnement
+.env
+env
+
+# Dépendances
+/vendor/
+
+# Dossiers temporaires et écriture
+/writable/cache/
+/writable/logs/
+/writable/session/
+/writable/uploads/
+/writable/debugbar/
+/writable/temp/
+
+# Builds, exports, backups
+*.bak
+*.tmp
+*.swp
+*.log
+*.xlsx
+*.csv
+*.sqlite
+*.db
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tests
+coverage/
+.phpunit.result.cache
+
+# Autres fichiers inutiles
+composer.lock
