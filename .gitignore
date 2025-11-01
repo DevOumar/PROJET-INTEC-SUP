@@ -25,6 +25,15 @@ env
 *.sqlite
 *.db
 
+# Documents et images (non versionnés)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+
 # IDE / OS
 .vscode/
 .idea/
